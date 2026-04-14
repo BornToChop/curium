@@ -31,10 +31,9 @@ Development Environment Setup
 
         cd ~/go/src/github.com/bluzelle
 
-5.  Clone the Curium and WikiAI projects from GitHub into the directory referenced above
+5.  Clone the Curium project from GitHub into the directory referenced above
 
         git clone https://github.com/bluzelle/curium.git
-        git clone https://github.com/BornToChop/WikiAI.git
 
 
  

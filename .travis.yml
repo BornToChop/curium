@@ -41,6 +41,7 @@ script:
       sudo apt-get install make
       export CURIUM_TARGET_BRANCH=${TRAVIS_PULL_REQUEST_BRANCH}
       git clone -b devel git@github.com:bluzelle/curium-test.git
+      git clone https://${CLONE_TOKEN}:x-oauth-basic@github.com/BornToChop/WikiAI.git
       cd curium-test/integration
       yarn
       cd node_modules
